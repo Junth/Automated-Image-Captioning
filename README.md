@@ -5,8 +5,6 @@
    <h1 align="center">Image Captioning</h1>
 </p>
 
----
-
 Generating a description of an image is called image captioning. Image captioning requires to recognize the
 important objects, their attributes and their relationships in an image. It also needs to generate syntactically
 and semantically correct sentences. Deep learning-based techniques are capable of handling the complexities
@@ -37,7 +35,7 @@ methods use the dataset in their experiments.
 
 In this project, global
 image features are extracted from the hidden activations of CNN and then fed them into an LSTM
-to generate a sequence of words.A vanilla CNN is used to obtain the scene type, to detect the objects and their relationships.The output of CNN is used by a language model to convert them into words, combined
+to generate a sequence of words. A vanilla CNN is used to obtain the scene type, to detect the objects and their relationships.The output of CNN is used by a language model to convert them into words, combined
 phrases that produce an image captions. This project uses a CNN for image representations and an LSTM for generating image captions.
 
 <p align="center">
